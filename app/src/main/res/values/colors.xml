@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_1">#ff000000</color>
+    <color name="divider">#FFC9C9C9</color>
+    <color name="spinner_text">#ffbaaa</color>
+    <color name="background_1">#ff95faff</color>
+    <color name="background_2">#FFFFFFFF</color>
+    <color name="background_main">#000000</color>
+</resources>

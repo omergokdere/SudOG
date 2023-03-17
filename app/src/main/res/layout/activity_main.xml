@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="bingyan.net.demonsudoku.MainActivity"
+    android:background="@color/background_main">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:id="@+id/Easy"
+        android:layout_above="@+id/Medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_game"
+        android:id="@+id/Medium"
+        android:layout_above="@+id/Hard"
+        android:layout_alignRight="@+id/Easy"
+        android:layout_alignEnd="@+id/Easy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_helper"
+        android:id="@+id/Hard"
+        android:layout_above="@+id/ExitGame"
+        android:layout_alignRight="@+id/Medium"
+        android:layout_alignEnd="@+id/Medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_game"
+        android:id="@+id/ExitGame"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Medium"
+        android:layout_alignStart="@+id/Medium"
+        android:layout_alignRight="@+id/Hard"
+        android:layout_alignEnd="@+id/Hard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUDOKU"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/Easy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+</RelativeLayout>

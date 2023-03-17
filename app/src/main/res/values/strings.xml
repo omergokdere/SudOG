@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SudokOG</string>
+    <string name="title_activity_main">Sudoku</string>
+    <string name="hello_world">Sudoku</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="new_game">Yeni Oyun</string>
+    <string name="load_game">Devam Et</string>
+    <string name="game_helper">Hakkında</string>
+    <string name="exit_game">Çıkış</string>
+    <string name="title_activity_select">Seçim</string>
+    <string name="title_activity_difficulty__choose">Zorluk Derecesi</string>
+    <string name="easy">Kolay</string>
+    <string name="medium">Orta</string>
+    <string name="hard">Zor</string>
+    <string name="back">Ana Menü</string>
+    <string name="saveProgress">Kaydet</string>
+    <string name="show_answer">Sonuç</string>
+    <string name="title_activity_load_game">Oyunu Yükle</string>
+    <string name="title_activity_game_info">Hakkında</string>
+
+</resources>

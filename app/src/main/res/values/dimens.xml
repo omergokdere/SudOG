@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="divider_H">1dp</dimen>
+    <dimen name="divider_V">2dp</dimen>
+    <dimen name="border_padding">6dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_Top">45dp</dimen>
+    <dimen name="margin_Toptop">100dp</dimen>
+    <dimen name="helper_textSize_title">24sp</dimen>
+    <dimen name="helper_textSize_content">20sp</dimen>
+
+</resources>

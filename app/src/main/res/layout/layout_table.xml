@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/border_padding"
+    android:background="@color/background_main"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_2"
+        android:id="@+id/table_layout">
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider_1"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner11"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner12"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner13"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner14"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner15"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner16"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner17"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner18"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner19"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner21"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner22"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner23"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner24"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner25"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner26"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner27"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner28"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner29"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner31"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner32"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner33"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner34"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner35"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner36"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner37"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner38"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner39"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@color/divider_1"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner41"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner42"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner43"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner44"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner45"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner46"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner47"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner48"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner49"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:baselineAligned="true">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner51"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner52"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner53"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner54"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner55"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner56"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner57"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner58"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner59"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner61"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner62"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner63"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner64"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner65"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner66"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner67"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner68"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner69"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider_1"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner71"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner72"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner73"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner74"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner75"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner76"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner77"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner78"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner79"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner81"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner82"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner83"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner84"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner85"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner86"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner87"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner88"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner89"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner91"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner92"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner93"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner94"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner95"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner96"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner97"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner98"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner99"
+                android:background="@color/background_2" />
+
+            <View
+                android:layout_height="fill_parent"
+                android:layout_width="@dimen/divider_H"
+                android:background="@color/divider_1"/>
+
+        </TableRow>
+
+
+        <View
+            android:layout_height="@dimen/divider_V"
+            android:layout_width="match_parent"
+            android:background="@color/divider_1"/>
+
+    </TableLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Save"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/saveProgress"
+            android:textSize="16sp" />
+
+        <Chronometer
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/chronometer"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textColor="#ffffff" />
+        <Button
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ShowAnswer"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text = "@string/show_answer"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
